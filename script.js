@@ -61,12 +61,16 @@ const drop = (e) => {
     moveElement = false;
     // Get boundaries of div
     const currentDropBound = dropContainer.getBoundingClientRect();
-    if (initialX >= currentDropBound.left && initialX <= currentDropBound.right && initalY >= currentDropBound.top && initalY <= currentDropBound.bottom) {
+    if (
+      initialX >= currentDropBound.left &&
+      initialX <= currentDropBound.right &&
+      initialY >= currentDropBound.top &&
+      initialY <= currentDropBound.bottom
+      ) {
       dragObject.classList.add("hide");
       dropContainer.insertAdjacentHTML("afterbegin", '<div id="draggable-object"></div>');
     }
-  }
-  else {
+  } else {
     if(e.target.id == "drop-point"){
       dragObject.setAttribute("draggable", "false");
 
