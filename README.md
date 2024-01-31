@@ -1,5 +1,9 @@
-# drag-and-drop-tutorial
+# 🟦 Drag and Drop Element
 Simple drag and drop feature. 
+<br>
+<br>
+<strong>Note:</strong>
+<br>
 <br>
 The mobile and tablet version does not work at the moment. You can drag around the screen but it will not stick on top of the dashed box. The blue box is also underneath the dashed box.
 
